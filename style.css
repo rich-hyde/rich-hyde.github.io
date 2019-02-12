@@ -1,0 +1,71 @@
+
+body {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background: rgba(255,255,255,.8);
+}
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 50%;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: left;
+}
+
+th {
+	background-color: lightgray;
+}
+a img {
+	width:100%;
+	height:100%;
+	border:0;
+    filter: brightness(75%);
+}
+a img:hover {
+    filter: brightness(100%);
+}
+
+.lists {
+	background: rgba(255,255,0,.15);
+}
+.overall {
+	font-weight:bold;
+}
+
+#vs,#cs {
+	color: darkred;
+}
+#ms {
+	color: green;
+}
+.topm a::before {
+	content: "\266B  ";
+}
+
+h1 {
+    padding-top: 25px;
+}
+@media (min-width: 500px) {
+    #tit::before {
+        content: "Welcome to Richard's ";
+    }
+}
+
+@media (max-width: 499px) {
+    #tit::before {
+        content: none;
+    }
+}
+div h2 {
+  color: blue; 
+}
+
+

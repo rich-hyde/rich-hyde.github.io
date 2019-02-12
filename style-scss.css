@@ -1,0 +1,19 @@
+li {
+  background-color: white; }
+  li p {
+    font-style: italic; }
+
+td, th {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left; }
+
+td {
+  background-color: white;
+  font-family: sans-serif; }
+
+th {
+  background-color: lightgray;
+  font-family: serif; }
+
+/*# sourceMappingURL=style-scss.css.map */

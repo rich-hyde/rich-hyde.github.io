@@ -1,0 +1,26 @@
+$fital: italic;
+
+li {
+    background-color: white;
+    p {
+        font-style: $fital;
+    }
+   
+}
+
+%thtd {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: left;
+}
+td {
+    @extend %thtd;
+	background-color: white;
+    font-family: sans-serif;
+}
+th {
+    @extend %thtd;
+	background-color: lightgray;
+    font-family: serif;
+}
+
